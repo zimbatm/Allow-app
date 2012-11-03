@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Allow-app by zimbatm</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Allow-app</h1>
+        <p>unlock your quarantined files</p>
+        <p class="view"><a href="https://github.com/zimbatm/Allow-app">View the Project on GitHub <small>zimbatm/Allow-app</small></a></p>
+        <ul>
+          <li><a href="https://github.com/zimbatm/Allow-app/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/zimbatm/Allow-app/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/zimbatm/Allow-app">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Allow.app : unlock quarantined mac apps</h1>
+
+<p>Execute, select the app / document you want to be unlocked.</p>
+
+<p>Unfortunately Drag &amp; drop is prevented if the app is locked.</p>
+
+<h2>Problem</h2>
+
+<p>Mountain Lion's security model is great, it protects you from
+unadvertently executing rogue applications. You know it's coming, there
+is a but: developers need to pay Apple $99 to get a certificate, which
+is fine unless you develop free apps.</p>
+
+<p><img src="https://raw.github.com/zimbatm/Allow-app/master/quarantined.png" alt="Example"></p>
+
+<p>Usually you can right-click the app, click on Open and it unlocks the
+app but it doesn't always work.</p>
+
+<p>Allow.app gives you a way to selectively unlock quarantined apps, the
+ones coming from people you trust.</p>
+
+<h2>Installation</h2>
+
+<p>Chicken and egg issue right ? Download the archive, unpack and
+right-click on the Allow app. Drag to your application folder.</p>
+
+<h2>About</h2>
+
+<p>Made with Automator.</p>
+
+<p>The heart of the script boils down to
+<code>find $INPUT -exec xattr -d com.apple.quarantine {} \;</code></p>
+
+<h2>Copyright</h2>
+
+<p>MIT 2012 Jonas Pfenniger</p>
+
+<p>Lock icon comes from
+<a href="http://www.iconspedia.com/icon/silver-lock-18598.html">http://www.iconspedia.com/icon/silver-lock-18598.html</a>
+Copytight NewIdols, CC Attribution Non-Commercial</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/zimbatm">zimbatm</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
