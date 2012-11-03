@@ -13,7 +13,10 @@ unadvertently executing rogue applications. You know it's coming, there
 is a but: developers need to pay Apple $99 to get a certificate, which
 is fine unless you develop free apps.
 
-![Example](quarantined.png)
+![Example](https://raw.github.com/zimbatm/Allow-app/master/quarantined.png)
+
+Usually you can right-click the app, click on Open and it unlocks the
+app but it doesn't always work.
 
 Allow.app gives you a way to selectively unlock quarantined apps, the
 ones coming from people you trust.
